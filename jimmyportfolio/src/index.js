@@ -2,8 +2,8 @@ import React from 'react';
 import {render} from 'react-dom';
 import {
   BrowserRouter as Router, 
-  Route, 
-  Switch
+  Routes, 
+  Route,
 } from 'react-router-dom';
 
 import './index.css';
@@ -16,11 +16,11 @@ import reportWebVitals from './reportWebVitals';
 const routing = (
   <Router>
     <Navbar />
-    <Switch>
+    <Routes>
       <Route exact path="/" component={Home} />
       <Route path="/About" component={Info} />
       <Route component={Notfound} />
-    </Switch>
+    </Routes>
   </Router>
 )
 
