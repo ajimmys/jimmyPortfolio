@@ -13,21 +13,28 @@ code {
     monospace;
 }
 
-ul.topnav {
-  list-style-type: none;
-  position: right;
-  float: right;
-  overflow: hidden;
+.content{
+  padding-top: 4vh;
+}
+
+.navbar {
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 4vh;
+  
+  display: flex;
+  justify-content:flex-end ;
+  background-color: maroon;
+  transition: all .7s ease-in;
+
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-ul.topnav li {
-  float: right;
-}
-
-ul.topnav li a {
+ul.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -40,7 +47,7 @@ ul.topnav li a {
   transition: all 0.1s ease-in;
 }
 
-ul.topnav li a:hover {
+ul.navbar li a:hover {
   color: #5b6ac7;
   text-shadow: 0px 0px 20px blue;
   -moz-transition: all 0.1s ease-in;

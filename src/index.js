@@ -8,7 +8,7 @@ import {
 
 import './index.css';
 import Home from './Components/Home';
-import Info from './Components/Info';
+import About from './Components/About';
 import Navbar from './Components/Navbar';
 import Notfound from './Components/NotFound'
 import reportWebVitals from './reportWebVitals';
@@ -17,9 +17,9 @@ const routing = (
   <Router>
     <Navbar />
     <Routes>
-      <Route exact path="/" component={Home} />
-      <Route path="/About" component={Info} />
-      <Route component={Notfound} />
+      <Route exact path="/" element={<Home />} />
+      <Route path="/About" element={<About />} />
+      <Route element={Notfound} />
     </Routes>
   </Router>
 )
