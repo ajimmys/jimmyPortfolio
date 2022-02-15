@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import GitHubLogo from '../Images/GitHubLogo.png';
 import LinkedInLogo from '../Images/LinkedInLogo.png';
+import DiscordLogo from '../Images/DiscordLogo.png'
 
 function Navbar(){
     
@@ -10,6 +11,9 @@ function Navbar(){
             <ul class="navbar">
                 <li>
                     <Link to="/" activeClass={"active"}>Home</Link>
+                </li>
+                <li>
+                    <Link to="/WorkingOnNow" activeClass={"active"}>In Progress</Link>
                 </li>
                 <li>
                     <Link to="/ContactMe" activeClass={"active"}>Contact Me</Link>
@@ -23,6 +27,12 @@ function Navbar(){
                         <img class="reference-nav-logo" src={GitHubLogo} alt="Git-Hub"/>
                     </a>
                 </li>
+                <li>
+                    <a target="_blank" rel="noopener noreferrer" href="https://discordapp.com/users/258014168161058817">
+                        <img className="reference-nav-logo" src={DiscordLogo} alt="Discord"/>
+                    </a>
+                </li>
+
             </ul>
         </nav>
 

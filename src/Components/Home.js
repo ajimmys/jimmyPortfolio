@@ -1,9 +1,9 @@
-import App from '../Container/App';
+import HomeContainer from '../Containers/HomeContainer';
 
 function Home () {
     return(
         <div>
-            <App />
+            <HomeContainer />
         </div>
     );
 }

@@ -1,5 +1,5 @@
 
-function App() {
+function HomeContainer() {
   return (
     <div class='content'>
       <p>James</p>
@@ -66,4 +66,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomeContainer;

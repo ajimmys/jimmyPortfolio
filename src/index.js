@@ -12,6 +12,7 @@ import ContactMe from './Components/ContactMe.js';
 import Navbar from './Components/Navbar';
 import Notfound from './Components/NotFound'
 import reportWebVitals from './reportWebVitals';
+import WorkingOnNow from "./Components/WorkingOnNow";
 
 const routing = (
   <Router>
@@ -19,6 +20,7 @@ const routing = (
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/ContactMe" element={<ContactMe />} />
+      <Route path="/WorkingOnNow" element={<WorkingOnNow />}/>
       <Route element={Notfound} />
     </Routes>
   </Router>

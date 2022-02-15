@@ -1,4 +1,4 @@
-import ContactMeContainer from '../Container/ContactMeContainer'
+import ContactMeContainer from '../Containers/ContactMeContainer'
 
 function ContactMe (){
     return(
