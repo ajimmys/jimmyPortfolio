@@ -1,8 +1,8 @@
-import WONContainer from "../Containers/WONContainer";
+import WorkingOnNowContainer from "../Containers/WorkingOnNowContainer";
 
 function WorkingOnNow (){
     return(
-        <WONContainer />
+        <WorkingOnNowContainer />
     );
 }
 

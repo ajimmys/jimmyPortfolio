@@ -6,7 +6,7 @@ import {
   Route,
 } from 'react-router-dom';
 
-import './index.css';
+import './Styles/index.css';
 import Home from './Components/Home';
 import ContactMe from './Components/ContactMe.js';
 import Navbar from './Components/Navbar';

@@ -1,6 +1,6 @@
 import React from "react";
 
-function WONContainer () {
+function WorkingOnNowContainer () {
     return (
         <div class='content'>
             <h1> James </h1>
@@ -14,4 +14,4 @@ function WONContainer () {
     )
 }
 
-export default WONContainer
+export default WorkingOnNowContainer

@@ -1,6 +1,6 @@
-# Getting Started with Create React HomeContainer
+# Getting Started with Create React BiographyContainer
 
-This project was bootstrapped with [Create React HomeContainer](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React BiographyContainer](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -41,7 +41,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React HomeContainer documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React BiographyContainer documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
@@ -53,7 +53,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web HomeContainer
+### Making a Progressive Web BiographyContainer
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 

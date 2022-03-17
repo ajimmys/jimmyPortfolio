@@ -1,9 +1,12 @@
-import HomeContainer from '../Containers/HomeContainer';
+import BiographyContainer from '../Containers/BiographyContainer';
+import WorkHistoryContainer from "../Containers/WorkHistoryContainer";
+import '../Styles/Home.css'
 
 function Home () {
     return(
-        <div>
-            <HomeContainer />
+        <div className="homeLayout">
+            <BiographyContainer />
+            <WorkHistoryContainer />
         </div>
     );
 }
