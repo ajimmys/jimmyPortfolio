@@ -67,5 +67,10 @@ code {
   width: 20px;
   height: 20px;
   vertical-align: middle;
+  filter: invert(100%) sepia(0%) saturate(505%) hue-rotate(248deg) brightness(114%) contrast(82%);
+}
+
+.reference-nav-logo:hover{
+  filter: invert(49%) sepia(80%) saturate(3346%) hue-rotate(186deg) brightness(91%) contrast(94%);
 }
 
