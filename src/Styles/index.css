@@ -29,6 +29,7 @@ code {
   position: fixed;
   top: 0;
   left: 0;
+  z-index:1;
   min-height: 4vh;
 
   display: flex;

@@ -54,5 +54,52 @@
 
 .workHistory{
     margin-top: 5vh;
-    border: 1px solid green;
+    list-style: none;
+}
+
+.workHistory li{
+    margin: 1vh 1vw;
+    padding: 1vw;
+    border: 2px var(--highlight-two) double;
+    box-shadow:-1px 1px 2px 2px var(--accent-color);
+}
+
+li .title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.title a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.project{
+    display: flex;
+    padding: 2rem;
+}
+
+.odd{
+    flex-direction: row-reverse;
+}
+
+.even{
+    flex-direction: row;
+}
+
+.project a{
+    padding: 1rem;
+    margin: 1rem;
+    width: 40%;
+}
+
+.project .picture{
+    object-fit: cover;
+    width: 100%;
+}
+
+.project .description{
+    padding: 1rem;
+    margin: 1rem;
+    width: 60%;
 }

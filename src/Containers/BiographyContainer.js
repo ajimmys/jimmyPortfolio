@@ -3,7 +3,7 @@ import bioPic from '../Images/biography_picture.jpeg'
 
 export default function BiographyContainer() {
   return (
-    <div class='biography'>
+    <div className='biography'>
         <span>Hey I’m James (he/him) and I like coding and the occasional movie reference. I was born and raised in
             Omaha, Nebraska. In 2018 I received my Bachelors in Computer Science from the University of Nebraska Omaha,
             and went on to join the Air Force as a Communications Officer. I didn’t do much coding in the service, but

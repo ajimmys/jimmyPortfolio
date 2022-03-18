@@ -8,23 +8,23 @@ function Navbar(){
     
     return (
         <nav>
-            <ul class="navbar">
+            <ul className="navbar">
                 <li>
-                    <Link to="/" activeClass={"active"}>Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/WorkingOnNow" activeClass={"active"}>In Progress</Link>
+                    <Link to="/WorkingOnNow">In Progress</Link>
                 </li>
                 <li>
-                    <Link to="/ContactMe" activeClass={"active"}>Contact Me</Link>
+                    <Link to="/ContactMe">Contact Me</Link>
                 </li>
                 <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/james-schnitzer-359295136/">
-                        <img class="reference-nav-logo" src={LinkedInLogo} alt="Linked-In"/></a>
+                        <img className="reference-nav-logo" src={LinkedInLogo} alt="Linked-In"/></a>
                 </li>
                 <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/ajimmys?tab=repositories">
-                        <img class="reference-nav-logo" src={GitHubLogo} alt="Git-Hub"/>
+                        <img className="reference-nav-logo" src={GitHubLogo} alt="Git-Hub"/>
                     </a>
                 </li>
                 <li>

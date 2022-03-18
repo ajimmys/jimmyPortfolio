@@ -1,0 +1,17 @@
+{
+  "projects": [
+    {
+      "title": "Compound Interest Calculator",
+      "image": "project_1_image",
+      "description": "This is a simple calculator to measure how much an investment is expected to grow within a given period. I like this project because it is both useful and complex enough that it requires a specific calculator.",
+      "link": "https://github.com/ajimmys/compoundIntetestCalculator"
+    },
+    {
+      "title": "Project 2",
+      "image": "project_2_image",
+      "description": "this is place holder for my next project",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
+  ]
+
+}

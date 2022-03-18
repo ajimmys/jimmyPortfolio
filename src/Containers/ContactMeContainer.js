@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactMeContainer () {
     return (
-        <div class='content'>
+        <div className='content'>
             <h1> James </h1>
             <p> Small paragraph</p>
             <ul>
