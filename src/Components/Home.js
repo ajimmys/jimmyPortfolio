@@ -1,3 +1,4 @@
+import React from 'react';
 import BiographyContainer from '../Containers/BiographyContainer';
 import WorkHistoryContainer from "../Containers/WorkHistoryContainer";
 import '../Styles/Home.css'
