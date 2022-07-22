@@ -1,3 +1,4 @@
+import React from 'react';
 import bioPic from '../Images/biography_picture.jpeg'
 
 
