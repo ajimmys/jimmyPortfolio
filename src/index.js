@@ -13,15 +13,17 @@ import Navbar from './Components/Navbar';
 import Notfound from './Components/NotFound'
 import reportWebVitals from './reportWebVitals';
 import WorkingOnNow from "./Components/WorkingOnNow";
+import Blog from "./Components/Blog"
 
 const routing = (
   <Router>
     <Navbar />
     <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route path="/ContactMe" element={<ContactMe />} />
-      <Route path="/WorkingOnNow" element={<WorkingOnNow />}/>
-      <Route element={Notfound} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/WorkingOnNow" element={<WorkingOnNow />}/>
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/ContactMe" element={<ContactMe />} />
+        <Route element={Notfound} />
     </Routes>
   </Router>
 )

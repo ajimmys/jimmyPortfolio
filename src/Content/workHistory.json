@@ -1,13 +1,19 @@
 {
   "projects": [
     {
+      "title": "Digital Clock",
+      "image": "digital_clock",
+      "description": "The digital clock is fun becasue it offers a developer the ability to flex some creativity. While this rendition is fairly simple, I like it because it was a practice in allowing the user to dynamically change the app.",
+      "link": "https://github.com/ajimmys/digital-clock"
+    },
+    {
       "title": "Compound Interest Calculator",
-      "image": "project_1_image",
-      "description": "This is a simple calculator to measure how much an investment is expected to grow within a given period. I like this project because it is both useful and complex enough that it requires a specific calculator.",
+      "image": "compound_interest",
+      "description": "This calculator measures how much an investment is expected to grow within a given period. I like this project because it is something that anyone can use while also being fast. In the future I intend to add a graph function to the result as well as an export button.",
       "link": "https://github.com/ajimmys/compoundIntetestCalculator"
     },
     {
-      "title": "Project 2",
+      "title": "Project 3",
       "image": "project_2_image",
       "description": "this is place holder for my next project",
       "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"

@@ -1,31 +1,47 @@
 :root{
-    --background-color: #184D78;
-    --text-color: #E8E8E8;
-    --highlight-one: #1787E3;
-    --highlight-two: #216BB5;
-    --accent-color: #0F2538;
+    --primary-one: #C9C9C9;
+    --primary-two: #201E1F;
+    --primary-three: #F7F7FF;
+    --secondary-color: #224870;
+    --accent-one: #35FF69;
+    --accent-two: #307351;
 }
 
 .homeLayout{
     display: flex;
     flex-direction: column;
     margin-top: 10vh;
-    color: var(--text-color)
+    color: var(--primary-two)
 }
 
 .biography{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.biography span{
+.flex-one{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-two{
+    margin-top: 2vh;
+    margin-left: 5vw;
+    height: 24vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.biography-text{
     padding: 32px;
-    filter: drop-shadow(-1px 3px 2px var(--accent-color));
 }
 
 .hex-wrap{
     margin: 0 5.3vw;
-    filter: drop-shadow(-1px 6px 3px var(--accent-color));
+    filter: drop-shadow(-1px 6px 3px var(--accent-two));
 }
 
 .hexagon {
@@ -33,7 +49,7 @@
     position: relative;
     width: 240px;
     height: 265px;
-    background-color: var(--highlight-one);
+    background-color: var(--accent-one);
     box-sizing: border-box;
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -51,6 +67,47 @@
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
+.section-title{
+    height: 100%;
+    width: 33%
+}
+
+.language{
+    padding: 0;
+    margin: 0;
+}
+
+.language p{
+    filter: drop-shadow(-1px 3px 2px var(--accent-color));
+}
+
+.progress-bar{
+    background: var(--secondary-color);
+    box-shadow: 0 0 2px 2px var(--primary-three);
+    height: .5rem;
+}
+
+.nine-five{
+    width: 95%;
+}
+
+.nine{
+    width: 90%;
+}
+
+.eight-five{
+    width: 85%;
+}
+
+.seven-five{
+    width: 75%;
+}
+
+.background-bar{
+    background: dimgrey;
+    height: .5rem;
+    width: 18vw;
+}
 
 .workHistory{
     margin-top: 5vh;
@@ -60,8 +117,8 @@
 .workHistory li{
     margin: 1vh 1vw;
     padding: 1vw;
-    border: 2px var(--highlight-two) double;
-    box-shadow:-1px 1px 2px 2px var(--accent-color);
+    border: 2px var(--primary-three) double;
+    box-shadow:-1px 1px 2px 2px var(--accent-two);
 }
 
 li .title{

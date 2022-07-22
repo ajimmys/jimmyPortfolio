@@ -1,9 +1,7 @@
 import ContactMeContainer from '../Containers/ContactMeContainer'
 
-function ContactMe (){
+export default function ContactMe (){
     return(
         <ContactMeContainer />
     );
 }
-
-export default ContactMe;

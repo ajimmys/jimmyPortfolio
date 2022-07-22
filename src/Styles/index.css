@@ -1,9 +1,10 @@
 :root{
-  --background-color: #184D78;
-  --text-color: #E8E8E8;
-  --highlight-one: #1787E3;
-  --highlight-two: #216BB5;
-  --accent-color: #0F2538;
+  --primary-one: #C9C9C9;
+  --primary-two: #201E1F;
+  --primary-three: #F7F7FF;
+  --secondary-color: #224870;
+  --accent-one: #35FF69;
+  --accent-two: #307351;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-color);
+  background-color: var(--primary-one);
 }
 
 code {
@@ -34,7 +35,7 @@ code {
 
   display: flex;
   justify-content:flex-end;
-  background-color: var(--highlight-two);
+  background-color: var(--secondary-color);
   transition: all .7s ease-in;
 
   list-style-type: none;
@@ -44,7 +45,7 @@ code {
 
 .navbar li a {
   display: block;
-  color: var(--text-color);
+  color: var(--primary-three);
   text-align: center;
   padding: 1vh .75vw;
   text-decoration: none;
@@ -56,8 +57,8 @@ code {
 }
 
 .navbar li a:hover {
-  color: var(--highlight-one);
-  text-shadow: 0 0 20px var(--accent-color);
+  color: var(--accent-one);
+  text-shadow: 0 0 20px var(--accent-two);
   -moz-transition: all 0.1s ease-in;
   -o-transition: all 0.1s ease-in;
   -webkit-transition: all 0.1s ease-in;
