@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "title": "Digital Clock TEST-EDIT",
+      "title": "Digital Clock",
       "image": "digital_clock",
       "description": "The digital clock is fun becasue it offers a developer the ability to flex some creativity. While this rendition is fairly simple, I like it because it was a practice in allowing the user to dynamically change the app.",
       "link": "https://github.com/ajimmys/digital-clock"
